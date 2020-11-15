@@ -1,0 +1,71 @@
+/* CSS files add styling rules to your content */
+html, body {
+  padding-top:4em;
+  text-align:center;
+  width: 80%;
+  margin: 0 auto;
+}
+<style>
+@font-face {
+    font-family: 'berkshire_swashregular';
+    src: url('https://cdn.glitch.com/93e6ab19-a45d-4972-83ab-4fd61c865a6a%2Fe2b5f923-0f1f-4a9d-b73e-ff2b469d07c9.berkshireswash-regular-webfont.woff2?v=1605420137831') format('woff2'),
+         url('https://cdn.glitch.com/93e6ab19-a45d-4972-83ab-4fd61c865a6a%2F0b30e1d4-8be7-474b-8feb-bb2cfd782b07.berkshireswash-regular-webfont.woff?v=1605420192529') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+</style>
+p{
+  font-family: 'berkshire_swashregular';
+  font-weight:100;
+  
+}
+
+.container h1{
+    text-align:center;
+    font-size: 30px;
+    font-family:  'berkshire_swashregular';
+  src:url('https://cdn.glitch.com/93e6ab19-a45d-4972-83ab-4fd61c865a6a%2Fe2b5f923-0f1f-4a9d-b73e-ff2b469d07c9.berkshireswash-regular-webfont.woff2?v=1605420137831') format('woff2'),
+         url('https://cdn.glitch.com/93e6ab19-a45d-4972-83ab-4fd61c865a6a%2F0b30e1d4-8be7-474b-8feb-bb2cfd782b07.berkshireswash-regular-webfont.woff?v=1605420192529') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.gallery-area{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+}
+.single-img{
+    padding: 0 20px 20px;
+}
+img:hover{
+  opacity: .5;
+  transition: .9s;
+}
+body {
+  background-color: white;
+  font-family:  'berkshire_swashregular';
+  src:url('https://cdn.glitch.com/93e6ab19-a45d-4972-83ab-4fd61c865a6a%2Fe2b5f923-0f1f-4a9d-b73e-ff2b469d07c9.berkshireswash-regular-webfont.woff2?v=1605420137831') format('woff2'),
+         url('https://cdn.glitch.com/93e6ab19-a45d-4972-83ab-4fd61c865a6a%2F0b30e1d4-8be7-474b-8feb-bb2cfd782b07.berkshireswash-regular-webfont.woff?v=1605420192529') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  padding:3em;
+  margin: 2em;
+}
+
+h1 {
+  font-family: 'berkshire_swashregular',bold;
+  font-size: 1.5em;
+  font-style: bold;
+  color: #00000;
+}
+h3 {
+  font-family: 'berkshire_swashregular',bold;
+  font-size: 1.5em;
+  font-style: normal;
+  color: #C0C0C0;
